@@ -53,7 +53,7 @@
 	.line_left,
 	.line_right{
 		border-top: 1px solid #434247;
-		width: 305px;
+		width: 150px;
 		margin-top: 13px;
 	}
 	.line_left{
@@ -77,16 +77,16 @@
 		top: 7px;
 	}
 	.left_circle{
-		left: 314px;
+		left: 214px;
 	}
 	.central_circle{
-		width: 26px;
-		height: 26px;		
+		width: 20px;
+		height: 20px;		
 		top: 0px;
-		left: 322px;
+		left: 225px;
 	}
 	.right_circle{
-		left: 343px;
+		left: 243px;
 	}
 	
 /* Main tags */
@@ -95,8 +95,9 @@ body {
 	/*background: url(https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) shrink;
 	 
 	 https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;*/
-	background-color: #2c272f;
+	
 	margin: 0;
+	background-color:#4d2a4e
 }
 
 h1,h2,h3, h4 {
@@ -159,8 +160,11 @@ ul {
 /* Containers size */
 
 #main_container {
-	width: 960px;
+	width: 786px;
 	margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #2c272f;
 }
 	#header {
 		height: 150px;
@@ -174,7 +178,7 @@ ul {
 		}
 		.header_menu_container {
 			height: 150px;
-			width: 674px;
+			width: 500px;
 			float: left;
 		}
 			.header_menu_container a {
@@ -185,12 +189,12 @@ ul {
 		float: left;
 	}
 	#content_container {
-		width: 674px;
+		width: 500px;
 		border-left: 1px solid #403F44;
 		float: left;
 	}
 	#footer {
-		width: 960px;
+		width: 786px;
 		height: 60px;
 		border-top: 1px solid #403F44;
 		display: inline-block;
